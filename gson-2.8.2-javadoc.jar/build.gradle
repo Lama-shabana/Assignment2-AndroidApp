@@ -1,0 +1,7 @@
+configurations.maybeCreate("default")
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.2'
+}
+
+artifacts.add("default", file('gson-2.8.2-javadoc.jar.jar'))
